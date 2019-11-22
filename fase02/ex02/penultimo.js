@@ -1,3 +1,3 @@
 function penultimo(palavra) {
-return palavra.substring(7,8);
+return palavra.charAt(palavra.length-2);
 }
