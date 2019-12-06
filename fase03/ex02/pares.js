@@ -1,11 +1,9 @@
-function nove(num){
-var x=num.toString();
-var final=x.charAt(x.length-1);
+function pares(num1,num2){
 
-if (final==9){
- return (true);
+if(num1%2==0&&num2%2==0) {
+return ("Os números são pares");
 }
 else{
- return(false);
+return("Os números não são pares");
 }
 }
